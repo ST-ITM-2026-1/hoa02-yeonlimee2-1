@@ -17,23 +17,30 @@
   </header>
   <main class="projects">
     <h1>Projects</h1>
+
+    <div class="filter-buttons">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('web')">Web</button>
+      <button onclick="filterProjects('data')">Data</button>
+    </div>
+
     <div class="projects-list">
-        <section>
-            <h2>Web Programming</h2>
-            <p>Design my own Web</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Data Mining</h2>
-            <p>Data Analysis with Python</p>
-            <ul>
-                <li>Python</li>
-                <li>Linear regression</li>
-            </ul>
-        </section>
+    <section class="project web">
+      <h2>Web Programming</h2>
+      <p>Design my own Web</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </section>
+    <section class="project data">
+      <h2>Data Mining</h2>
+      <p>Data Analysis with Python</p>
+      <ul>
+        <li>Python</li>
+        <li>Linear regression</li>
+      </ul>
+    </section>
     </div>
   </main>
   <footer>
