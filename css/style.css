@@ -206,12 +206,15 @@ body.dark input {
   padding: 4px 12px;
   border-radius: 20px;
   cursor: pointer;
+}
+
 .filter-buttons {
   display: flex;
   justify-content: center;
   gap: 12px;
   margin-top: 24px;
 }
+
 
 .filter-buttons button {
   padding: 8px 20px;
@@ -270,5 +273,4 @@ body.dark input {
 #error-message {
   text-align: center;
   color: red;
-}
 }

@@ -44,7 +44,10 @@ fetch("https://api.github.com/users/" + username)
     document.getElementById("following").textContent = data.following;
   })
   .catch(function() {
-    document.getElementById("error-message").textContent = "Failed to load profile.";
+    const errorMsg = document.getElementById("error-message");
+    if (errorMsg) {
+      errorMsg.textContent = "Failed to load profile.";
+    }
   });
 
 fetch("https://api.github.com/users/" + username + "/repos")
@@ -76,5 +79,8 @@ fetch("https://api.github.com/users/" + username + "/repos")
     });
   })
   .catch(function() {
-    document.getElementById("error-message").textContent = "Failed to load repositories.";
+    const errorMsg = document.getElementById("error-message");
+    if (errorMsg) {
+      errorMsg.textContent = "Failed to load repositories.";
+    }
   });
