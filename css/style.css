@@ -169,3 +169,19 @@ input[type="submit"] {
     font-size: 14px;
   }
 }
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.filter-buttons button {
+  padding: 8px 20px;
+  border: 1px solid #003049;
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+  color: #003049;
+}
