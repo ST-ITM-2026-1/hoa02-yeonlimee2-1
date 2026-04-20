@@ -170,7 +170,6 @@ input[type="submit"] {
   }
 }
 
-<<<<<<< HEAD
 body.dark {
   background-color: #000000;
   color: #aaaaaa;
@@ -222,7 +221,6 @@ body.dark input {
   cursor: pointer;
   color: #003049;
 }
-=======
 .github h1 {
   text-align: center;
 }
@@ -272,5 +270,5 @@ body.dark input {
 #error-message {
   text-align: center;
   color: red;
->>>>>>> gitPage
+}
 }
