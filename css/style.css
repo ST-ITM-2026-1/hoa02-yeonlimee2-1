@@ -169,3 +169,41 @@ input[type="submit"] {
     font-size: 14px;
   }
 }
+
+body.dark {
+  background-color: #000000;
+  color: #aaaaaa;
+}
+
+body.dark nav {
+  background-color: #222222;
+}
+
+body.dark main {
+  color: #aaaaaa;
+}
+
+body.dark footer {
+  color: #aaaaaa;
+}
+
+body.dark .projects-list section,
+body.dark .skills-list section {
+  background-color: #111111;
+  border-color: #555555;
+}
+
+body.dark input {
+  background-color: #111111;
+  color: #aaaaaa;
+  border-color: #555555;
+}
+
+#theme-toggle {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
