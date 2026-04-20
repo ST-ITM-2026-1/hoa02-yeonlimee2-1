@@ -170,6 +170,7 @@ input[type="submit"] {
   }
 }
 
+<<<<<<< HEAD
 body.dark {
   background-color: #000000;
   color: #aaaaaa;
@@ -221,4 +222,55 @@ body.dark input {
   cursor: pointer;
   color: #003049;
 }
+=======
+.github h1 {
+  text-align: center;
+}
+
+.github h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+#profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+#repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 24px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.repo-card {
+  border: 1px solid #003049;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  background-color: white;
+}
+
+.repo-card a {
+  color: #003049;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#error-message {
+  text-align: center;
+  color: red;
+>>>>>>> gitPage
 }
